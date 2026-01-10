@@ -1,4 +1,19 @@
-num = int(input("Enter num: "))
+nums = [5, 7, 4, 5.45, 6, 6]
+nums[0] = 34.34
+#print(nums[3])
 
-if num == 5:
-    print("Yes")
+nums2 = [5, 7, 3, [5, "Text", True]]
+#print(nums2[-2])
+
+nums.append(45)
+nums.insert(1, False)
+#nums.extend(nums2)
+nums.sort()
+nums.reverse()
+nums.pop()
+nums.remove(34.34)
+#nums.clear()
+
+print(nums)
+print(nums.count(6))
+print(len(nums))
