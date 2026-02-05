@@ -44,7 +44,7 @@ h4 {
     border: 1px solid #ccc;
     padding: 15px;
     width: 300px;
-    margin: 20 px 0;
+    margin: 20px 0;
 }
 
 .contents h3 {
@@ -52,5 +52,9 @@ h4 {
 }
 
 ol, ul {
+    padding-left: 20px;
+}
+
+ol ol, ul ul {
     padding-left: 20px;
 }
