@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.menu {
+    background-color: #333;
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20 px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: rgb(41, 116, 41)
+}
+
+.student-info {
+    background: white;
+    width: 80%;
+    margin: 40px 0 40px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    overflow: hidden;
+}
+
+.student-info img {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.student-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
